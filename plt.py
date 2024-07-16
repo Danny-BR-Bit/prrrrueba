@@ -3,7 +3,7 @@ import numpy as np
 
 x = np.linspace(0,10,100)
 y = np.sin(x)
-plt.plot(x,y,"r--", label = "Sin", linewidth = 5)
+plt.plot(x,y,"k--", label = "Sen(x)", linewidth = 3)
 plt.title("F(x) = Sen(x)")
 plt.xlabel("X")
 plt.ylabel("Sen (x)")
